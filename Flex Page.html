@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="wid=device-width, initial-scale=1.0">
+        <title>MY WEB PAGE</title>
+             <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    height: 100%;
+}
+body{
+    background-image:url('how.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+}
+nav ul li a:hover {
+    color: #00aeff; 
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    background: #00aeff; 
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #f33c3c;
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: rgb(16, 243, 243);
+    font-weight: 600;
+}
+.blog-box{
+    width: 350px;
+    background-color: black;
+    border: 1px solid white;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span{
+    color: #3cb3f3;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #342929;
+}
+.blog-text .blog-title:hover{
+    color: #3cb0f3;
+    transition: all ease 0.3s;
+}
+.blog-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-container2{
+    max-width: 400px;
+	padding: 0px;
+	position: relative; right: -400px; top: -480px;
+	margin: 10px auto;
+}
+.blog-container3{
+    max-width: 400px;
+	padding: 8px;
+	position: relative; left: -400px; top: -1081px;
+	margin: 10px auto; 
+}
+.foot1{
+    color: white;
+	background-color: black;
+	font-size: 18px;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 15;
+    box-shadow: 0 0 5px;
+}
+
+
+             </style>
+    </head>
+    <body>
+      <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html"> <img src="logo1.png" class="logo">
+               
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+    
+                        <li><a href="about-1.html">About</a></li>
+                
+                        <li><a href="IT111 Blog Entries Page.html">IT111 Blog Entries Page</a></li>
+                
+                        <li><a href="Flex Page.html">Flex Page</a></li>
+                
+                    </ul>
+                    </a>
+            </nav>
+            <div class="content">
+          
+            <section id="blog">
+                <div class="blog-heading">
+                    <h3>FLEX</h3>
+                </div>
+    
+                
+<div class="blog-container1">
+
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="family.png" alt="Blog">
+        </div>
+  <div class="blog-text">
+    <span>MY FAMILY</span>
+    <a href="#" class="blog-title">For me, Family is the cornerstone of our lives, a source of love, support, and shared moments that shape our journey, providing a foundation of strength and connection that lasts a lifetime.</a>
+  </div>
+    </div>
+</div>
+
+       
+
+
+<div class="blog-container2">
+
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="friends.jpg" alt="Blog">
+        </div>
+  <div class="blog-text">
+    <span>MY FRIENDS </span>
+    <a href="#" class="blog-title"><br>For me, having friends is one of the keys that complete my life. These people are like my sisters and brothers, and one of the goals of this friendship is to help each other. I hope you all never change, and I love you all.</a>
+  </div>
+    </div>
+</div>
+
+     
+
+
+<div class="blog-container3">
+
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="bl.jpg" alt="Blog">
+        </div>
+  <div class="blog-text">
+    <span>MY PAST TIME</span>
+    <a href="#" class="blog-title"><br> Gaming is one of my favorite pastimes because it makes me feel like I'm in another world. It is also my stress reliever.</a>
+  </div>
+    </div>
+</div>
+
+
+
+
+</section>
+
+ 
+
+    </body>
+  
+    <footer>
+        <p class="foot1">Designed by <span class="designer">Jhon Mark <span class="year">2023</span></p>
+    </footer>
+        
+
+</html>
